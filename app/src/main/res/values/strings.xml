@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RetrofitRecyclerView</string>
+    <string name="show_detail">Android Version </string>
+    <string name="api">API</string>
+    <string name="version">Version</string>
+    <string name="name">Name</string>
+</resources>
