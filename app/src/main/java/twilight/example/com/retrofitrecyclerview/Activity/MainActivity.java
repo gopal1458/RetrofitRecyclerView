@@ -1,9 +1,7 @@
 package twilight.example.com.retrofitrecyclerview.Activity;
 
 import android.content.Intent;
-import android.graphics.Paint;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -29,9 +27,9 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private ArrayList<AndroidVersion> data;
     private DataAdapter adapter;
-    private Paint p = new Paint();
-    private AlertDialog.Builder alertDialog;
-    private View view;
+    //private Paint p = new Paint();
+    //private AlertDialog.Builder alertDialog;
+   // private View view;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

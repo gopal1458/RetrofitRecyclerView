@@ -13,8 +13,8 @@ import twilight.example.com.retrofitrecyclerview.Model.AndroidVersion;
 import twilight.example.com.retrofitrecyclerview.R;
 
 public class DataAdapter extends RecyclerView.Adapter<DataAdapter.ViewHolder> {
-    private ArrayList<AndroidVersion> android;
 
+    private ArrayList<AndroidVersion> android;
     OnItemClickListener mItemClickListener;
 
     public DataAdapter(ArrayList<AndroidVersion> android) {
